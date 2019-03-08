@@ -9,6 +9,8 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 
+
+
 $("#new-train-submit").click(function (event) {
     event.preventDefault();
     database.ref().push({
