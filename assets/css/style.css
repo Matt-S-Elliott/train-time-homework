@@ -1,0 +1,11 @@
+.card {
+    border-color: darkblue;
+    margin-top: 25px;
+}
+
+.card-header,
+.btn,
+.jumbotron {
+    background-color: darkblue;
+    color: white;
+}
